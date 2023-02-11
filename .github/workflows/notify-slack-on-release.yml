@@ -13,6 +13,6 @@ jobs:
       - name: Notify Slack on Release
         uses: craftech-io/slack-action@v1
         with:
-          slack_webhook_url:  https://hooks.slack.com/services/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 
+          slack_webhook_url:  ${{secret.SLACK_RELEASE_CHANNEL}}
           slack_channel: test
         if: always()
