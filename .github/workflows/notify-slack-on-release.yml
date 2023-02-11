@@ -11,7 +11,7 @@ jobs:
     name: Notify Slack on Release
     steps:
       - name: Notify Slack on Release
-        uses: instantish/notify-slack-on-release@1.0.0
+        uses: craftech-io/slack-action@v1
         with:
           slack_webhook_url:  https://hooks.slack.com/services/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 
           slack_channel: test
