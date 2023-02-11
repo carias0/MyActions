@@ -1,7 +1,7 @@
 name: Notify Slack on Release
 
 on:
-  push:
+  release:
     types:
       - created
 
