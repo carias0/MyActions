@@ -17,6 +17,7 @@ jobs:
           GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}
           SLACK_COLOR: '#efefef'
           SLACK_ICON: 'https://github.com/<Github User>.png?size=48'
+          SLACK_INCOMING_WEBHOOK: ${{ secrets.SLACK_RELEASE_CHANNEL }}
           slack_webhook_url: ${{ secrets.SLACK_RELEASE_CHANNEL }}
           slack_channel: test
           SLACK_MESSAGE: 'Demo''ing the Slack Notification'
