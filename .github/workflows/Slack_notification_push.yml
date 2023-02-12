@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Slack Notification Demo
-        uses: craftech-io/slack-action@v0
+        uses: craftech-io/slack-action@v1
         env:
           GITHUB_ACTOR: ${GITHUB_ACTOR}
           GITHUB_ACTION: ${GITHUB_ACTION}
